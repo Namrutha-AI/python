@@ -63,6 +63,38 @@ if temp > 37:
 else:
     print("No fever") 
 
+#elif statement
+marks = 72
+if marks >= 90:
+   print("Grade A")
+ 
+elif marks >= 60:
+    print("Grade B")
+ 
+else:
+    print("Grade C")
 
 
-  
+
+#Nested Conditions:
+
+marks,attendence =85 ,80
+if marks >= 80:
+    if attendence >= 85:
+        print("Grade A")
+    else:
+        print("Fail due to low attendance")
+
+else:
+    print("Grade C")
+
+
+# Pass statement 
+for n in range(5):
+    if n%2 ==0:
+        pass
+else:
+    print(n)
+
+def todo():
+    pass
